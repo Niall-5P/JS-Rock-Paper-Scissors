@@ -59,7 +59,8 @@ footer {
 }
 
 #player-image {
-    width: 45%;
+    width: 75%;
+    
 }
 
 .computer {
@@ -67,3 +68,4 @@ footer {
     float: right;
     width: 45%;
 }
+
