@@ -2,7 +2,7 @@
 
 This is a simple Rock, Paper, Scissors game implemented using HTML, CSS, and JavaScript. The game allows a player to compete against the computer by selecting rock, paper, or scissors. The game displays the choices, updates the scores, and announces the winner of each round.
 
-
+![Alt text](assets/images/amiresponsive.png)
 ![Alt text](assets/images/home.png)
 
 
