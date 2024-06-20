@@ -41,26 +41,33 @@ function playGame(playerChoice) {
 }
 
 /**
- * Checks to see who the winner is, it accepts two strings as
+ * Function to decide the winner
  */
-// Function to decide winner
-function playRound(playerChoice) {
-    const choices = ["rock", "paper", "scissors"];
-    const computerChoice = choices[Math.floor(Math.random() * choices.length)];
-  
-    if (playerChoice === computerChoice) {
-        resultDisplay.textContent = "It\'s a draw!";
+function checkWinner(computerChoice, playerChoice) {
+    if (computerChoice === playerChoice) {
+        return "draw";
     } else if (
-        (playerChoice === "rock" && computerChoice === "scissors") ||
-        (playerChoice === "paper" && computerChoice === "rock") ||
-        (playerChoice === "scissors" && computerChoice === "paper")
+        (computerChoice === "rock" && playerChoice === "scissors") ||
+        (computerChoice === "paper" && playerChoice === "rock") ||
+        (computerChoice === "scissors" && playerChoice === "paper")
     ) {
-        resultDisplay.textContent = "You win!";
-        playerScore++; // Increment player's score
+        return "computer";
     } else {
-        resultDisplay.textContent = "Computer wins!";
-        computerScore++; // Increment computer's score
+        return "player";
     }
-  
-  
-  }
+}
+
+/**
+ * Function to update scores
+ */
+function updateScores(result) {
+    if (result === "player") {
+        playerScore.textContent = parseInt(playerScore.textContent) + 1;
+        messages.textContent = "You win!";
+    } else if (result === "computer") {
+        computerScore.textContent = parseInt(computerScore.textContent) + 1;
+        messages.textContent = "Computer wins!";
+    } else {
+        messages.textContent = "It's a draw!";
+    }
+}
