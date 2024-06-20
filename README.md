@@ -5,7 +5,6 @@ This is a simple Rock, Paper, Scissors game implemented using HTML, CSS, and Jav
 
 ![Alt text](assets/images/home.png)
 
-[Include a link to a live demo or a screenshot of the game]
 
 ## Features
 
@@ -50,15 +49,14 @@ The game will display the choices, update the scores, and announce the winner of
 
 ## Deployment
 - The site was deployed to GitHub pages. The steps to deploy are as follows:
-* In the GitHub pages. The steps to deploy are as follows:
+* In the GitHub pages. Navigate to the settings tab
 * From the source section drop-down menu, select the Master Branch
 * Once the master branch has been selected, the page provided the link to the completed website
 
-The live link can be found here - 
+The live link can be found here - [Rock, Paper, Scissor](https://niall-5p.github.io/JS-Rock-Paper-Scissors/)
 
 ## Credits
-- Content Images obtained from
-* [Link Text](https://thereader.mitpress.mit.edu/the-psychological-depths-of-rock-paper-scissors/)
+- Content Images obtained from [Rock, Paper, Scissor images](https://thereader.mitpress.mit.edu/the-psychological-depths-of-rock-paper-scissors/)
 - Code institute, rock paper scissors walkthrough
-- Javascript code [Link Text](https://hackr.io/blog/how-to-build-rock-paper-scissors-in-javascript)
+- Javascript code [Javascript Function code](https://hackr.io/blog/how-to-build-rock-paper-scissors-in-javascript)
 - ChatGPT to troubleshoot, debug and fix Javascript code
